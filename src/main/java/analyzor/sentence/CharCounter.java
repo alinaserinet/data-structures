@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class CharCounter {
     private final int[] counts;
     public CharCounter(){
-        this.counts = new int[246];
+        this.counts = new int[256];
     }
 
     @SuppressWarnings("UnusedReturnValue")
