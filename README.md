@@ -1,4 +1,4 @@
-## Data Structures and Algorithms in JAVA
+## Data Structures and Algorithms in Java
 
 This project is a Java implementation of various fundamental data structures, designed to provide a comprehensive understanding and practical usage of data structures. It includes commonly used data structures such as arrays, linked lists, stacks, queues, trees, graphs, and more.
 
