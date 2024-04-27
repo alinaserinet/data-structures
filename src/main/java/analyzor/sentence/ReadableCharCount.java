@@ -21,8 +21,8 @@ public class ReadableCharCount {
         var result = new StringBuilder();
         for (int code = 0; code < this.counts.length; code++) {
             if (this.counts[code] == 0) continue;
-            var hasException = this.exceptions.containsKey((char) code);
-            if (hasException) {
+            var isException = this.exceptions.containsKey((char) code);
+            if (isException) {
                 result.append(this.exceptions.get((char) code)).append(": ").append(counts[code]).append('\n');
                 continue;
             }
